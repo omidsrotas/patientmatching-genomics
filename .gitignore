@@ -1,0 +1,148 @@
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Resource Forks
+._*
+
+# macOS Trash
+.Trashes
+.metadata_never_index
+.localized
+
+# Spotlight Files
+.Spotlight-V100
+.fseventsd
+
+# Mac Volume Info
+.VolumeIcon.icns
+
+# Temporary Files
+.TemporaryItems
+.apDisk
+.DocumentRevisions-V100
+.savedState
+.CFUserTextEncoding
+
+# Application-Specific Directories
+/Applications/
+/Library/
+/System/
+/Network/
+/Users/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+*.pyo
+.Python
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+
+# IDEs and Editors
+# JetBrains IDEs (e.g., IntelliJ, PyCharm)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Vim
+*.swp
+*.swo
+*.un~
+
+# Temp and Backup Files
+*.bak
+*.tmp
+
+# Secrets
+*.key
+*.pem
+*.crt
+*.env
+*.enc
+secrets/
+config.json
+keys.json
+
+# Images and Binaries
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.tif
+*.bmp
+*.ico
+*.exe
+*.dll
+*.deb
+*.dmg
+*.pkg
+
+# Archives
+*.tar
+*.tgz
+*.gz
+*.zip
+*.rar
+*.7z
+
+# Database and Dump Files
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+
+# macOS Keychain Files
+*.keychain-db
+
+# Git
+.git/
+*.orig
+*.patch
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
+*.map
+*.lock
+*.lockfile
+*.hprof
+# folders not to be tracked
+myvenv/
+model_weights/
+data/
+Documents/

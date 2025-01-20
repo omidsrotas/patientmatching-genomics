@@ -1,0 +1,24 @@
+'genome_encoder':
+  'input_dim': 180 # default: 180
+  'hidden_dim': 100
+  'latent_dim': 11 # default: 11 + 5(demographic dimensions) = 16
+  'n_layers': 2
+'demographic_encoder':
+  'input_dim': 180 # default: 180
+  'hidden_dim': 100
+  'latent_dim': 16
+  'n_layers': 2
+'largemolecule_encoder':
+  'input_dim': 1024 # default: 180
+  'hidden_dim': 128
+  'latent_dim': 16
+  'n_layers': 2
+'smallmolecule_encoder':
+  'input_dim': 768 # default: 180
+  'hidden_dim': 128
+  'latent_dim': 16
+  'n_layers': 2
+'train_param':
+  'n_epochs': 100
+  'learning_rate': 0.001
+  'batch_size': 128
